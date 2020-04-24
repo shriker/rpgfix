@@ -1,0 +1,6 @@
+[submodule "workbench/rpgfix-theme"]
+	path = workbench/rpgfix-theme
+	url = https://github.com/shriker/rpgfix-theme.git
+[submodule "workbench/flarum-playbypost"]
+	path = workbench/flarum-playbypost
+	url = https://github.com/shriker/flarum-playbypost.git
