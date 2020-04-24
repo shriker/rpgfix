@@ -1,4 +1,6 @@
-# RPGfix
+# RPGfix Flarum 🔥
+
+Working repository for RPGfix's Flarum installation. Guaranteed to be unstable. Use at your own peril.
 
 ## Server Requirements
 
@@ -17,6 +19,8 @@ php -S 127.0.0.1:8000
 ## Installing
 
 ```bash
+git clone --recurse-submodules https://github.com/shriker/rpgfix-flarum.git
+cd rpgfix-flarum
 composer install
 php flarum migrate
 ```
@@ -24,7 +28,8 @@ php flarum migrate
 ## Updating
 
 ```bash
-composer update
+git submodule update --init --recursive
+composer update --prefer-dist --no-dev -a --with-all-dependencies
 php flarum migrate
 php flarum cache:clear
 ```
