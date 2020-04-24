@@ -4,3 +4,6 @@
 [submodule "workbench/flarum-playbypost"]
 	path = workbench/flarum-playbypost
 	url = https://github.com/shriker/flarum-playbypost.git
+[submodule "workbench/rpgfix-directory"]
+	path = workbench/rpgfix-directory
+	url = https://github.com/shriker/rpgfix-directory.git

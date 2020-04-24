@@ -2,21 +2,23 @@
     "name": "shriker/rpgfix-flarum",
     "description": "RPGfix flarum installation.",
     "type": "project",
-    "keywords": ["forum", "discussion"],
+    "keywords": ["forum", "discussion", "rpg", "directory", "listing"],
     "homepage": "https://www.rpgfix.com",
     "license": "MIT",
     "authors": [
         {
             "name": "Jodie Struthers",
-            "email": "toby.zerner@gmail.com"
+            "email": "jodie@shriker.ca"
         }
     ],
     "require": {
+        "askvortsov/flarum-categories": "^0.2.6",
+        "clarkwinkelmann/flarum-ext-circle-groups": "^0.2.1",
         "flarum/approval": "^0.1.0",
         "flarum/auth-github": "^0.1.0",
         "flarum/auth-twitter": "^0.1.0",
         "flarum/bbcode": "^0.1.0",
-        "flarum/core": "^0.1.0",
+        "flarum/core": "^v0.1.0-beta.12",
         "flarum/emoji": "^0.1.0",
         "flarum/flags": "^0.1.0",
         "flarum/lang-english": "^0.1.0",
@@ -42,9 +44,16 @@
         "fof/spamblock": "^0.2.1",
         "fof/split": "^0.4.3",
         "fof/stopforumspam": "^0.2.1",
+        "fof/terms": "^0.4.1",
+        "fof/upload": "^0.8.5",
         "fof/username-request": "^0.2.0",
+        "irony/flarum-ext-login2see": "^0.0.1",
+        "shriker/flarum-playbypost": "*@dev",
         "shriker/flarum-pronouns": "^0.1.1",
-        "shriker/rpgfix-directory": "*@dev"
+        "shriker/rpgfix-directory": "*@dev",
+        "shriker/rpgfix-theme": "*@dev",
+        "therealsujitk/flarum-ext-gifs": "^1.4",
+        "v17development/flarum-seo": "^1.1"
     },
     "config": {
         "preferred-install": "dist",
