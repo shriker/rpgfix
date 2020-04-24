@@ -1,6 +1,3 @@
-[submodule "workbench/rpgfix-directory"]
-	path = workbench/rpgfix-directory
-	url = https://github.com/shriker/rpgfix-directory.git
 [submodule "workbench/rpgfix-theme"]
 	path = workbench/rpgfix-theme
 	url = https://github.com/shriker/rpgfix-theme.git
