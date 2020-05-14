@@ -9,8 +9,13 @@ core
 coverage
 node_modules
 npm-debug.log
-public/wiki/LocalSettings.php
+php-error.log
 server
 storage
 studio.json
 vendor
+public/xenforo_*
+public/xfscripts*
+public/formatter.php
+public/assets/avatars*
+public/assets/files*
